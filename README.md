@@ -3,7 +3,7 @@
 A modular radar perception framework for receiving raw radar data over UDP, decoding Range–Doppler (RD) maps and detections, preprocessing radar measurements, and running object classification using an ONNX model.
 
 The pipeline was originally implemented inside a ROS2 node and has been refactored into a standalone modular Python application for better portability, easier to test, maintain, and deploy.
-<img src="real-time.png" alt="Screenshot" width="600">
+<img src="real-time.png" alt="Screenshot" width="300">
 
 ---
 
