@@ -117,7 +117,7 @@ class RadarSimulator:
         return self.magic_word + header + packed
 
     # -------------------------------------------------
-    # CRITICAL FIX: chunked UDP sending
+    # chunked UDP sending
     # -------------------------------------------------
     def send_chunked(self, packet: bytes):
 
